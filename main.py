@@ -46,3 +46,4 @@ def fetch_upwork_jobs_rss(feed_url):
 if __name__ == "__main__":
     upwork_rss_url = "https://www.upwork.com/ab/feed/jobs/rss?paging=10%3B10&sort=recency&api_params=1&q=&securityToken=a3d75c4275bd54a3509cd27e00e5c00658c0c463ea831adeff073b687509fadb58175b09dc4a8ad7e438b70d8540d8e4a40e5063ba1a95497fd4dfb38c13db50&userUid=997168601881923584&orgUid=1718343678507720704"
     fetch_upwork_jobs_rss(upwork_rss_url)
+    print("Done")
